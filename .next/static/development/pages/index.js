@@ -6748,7 +6748,7 @@ function HomePage() {
       columnNumber: 7
     }
   }, __jsx("a", {
-    href: "https://github.com/react-icons/react-icons",
+    href: "https://github.com/prabeshshakya/react-icons",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -6778,7 +6778,7 @@ var BRAND_TITLE = "React Icons";
 var BRAND_TITLE_MONO = "react-icons";
 var BRAND_DESCRIPTION = "Include popular icons in your React projects easly with react-icons.";
 var BRAND_KEYWORDS = "React, Icons, Tree Shaking, SVG";
-var HOME_USAGE = "\nimport { FaBeer } from 'react-icons/fa';\n\nclass Question extends React.Component {\n  render() {\n    return <h3> Lets go for a <FaBeer />? </h3>\n  }\n}";
+var HOME_USAGE = "\nimport { UiAirplay } from 'react-icons/ui';\n\nclass Question extends React.Component {\n  render() {\n    return <h3> Lets go for a <UiAirplay />? </h3>\n  }\n}";
 
 /***/ }),
 

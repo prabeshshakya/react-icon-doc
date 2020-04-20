@@ -5,10 +5,10 @@ export const BRAND_DESCRIPTION =
 export const BRAND_KEYWORDS = "React, Icons, Tree Shaking, SVG";
 
 export const HOME_USAGE = `
-import { FaBeer } from 'react-icons/fa';
+import { UiAirplay } from 'react-icons/ui';
 
 class Question extends React.Component {
   render() {
-    return <h3> Lets go for a <FaBeer />? </h3>
+    return <h3> Lets go for a <UiAirplay />? </h3>
   }
 }`;
