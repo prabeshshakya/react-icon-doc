@@ -1,0 +1,26 @@
+{
+  "./dev/noop": [
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    }
+  ],
+  "react-icons/fi/index": [
+    {
+      "id": "./node_modules/react-icons/fi/index.js",
+      "name": "./node_modules/react-icons/fi/index.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ],
+  "react-icons/ui/index": [
+    {
+      "id": "./node_modules/react-icons/ui/index.js",
+      "name": "./node_modules/react-icons/ui/index.js",
+      "file": "static/chunks/2.js",
+      "publicPath": "static/chunks/2.js"
+    }
+  ]
+}
