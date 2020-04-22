@@ -1016,12 +1016,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BRAND_DESCRIPTION", function() { return BRAND_DESCRIPTION; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BRAND_KEYWORDS", function() { return BRAND_KEYWORDS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HOME_USAGE", function() { return HOME_USAGE; });
-const BRAND_TITLE = "React Icons";
-const BRAND_TITLE_MONO = "react-icons";
-const BRAND_DESCRIPTION = "Include popular icons in your React projects easly with react-icons.";
+const BRAND_TITLE = "Vyaguta Icons";
+const BRAND_TITLE_MONO = "vyaguta-icons";
+const BRAND_DESCRIPTION = "Include popular icons in your React projects easly with vyaguta-icons.";
 const BRAND_KEYWORDS = "React, Icons, Tree Shaking, SVG";
 const HOME_USAGE = `
-import { UiAirplay } from 'react-icons/ui';
+import { UiAirplay } from 'vyaguta-icons/ui';
 
 class Question extends React.Component {
   render() {

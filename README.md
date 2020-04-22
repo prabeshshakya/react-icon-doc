@@ -1,4 +1,4 @@
-# react-icons preview site
+# vyaguta-icons preview site
 
 ## how to develop
 

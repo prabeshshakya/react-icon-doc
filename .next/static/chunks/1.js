@@ -1,14 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1],{
 
-/***/ "./node_modules/react-icons/fi/index.js":
-/*!**********************************************!*\
-  !*** ./node_modules/react-icons/fi/index.js ***!
-  \**********************************************/
+/***/ "./node_modules/vyaguta-icons/fi/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/vyaguta-icons/fi/index.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // THIS FILE IS AUTO GENERATED
-var GenIcon = __webpack_require__(/*! ../lib */ "./node_modules/react-icons/lib/esm/index.js").GenIcon
+var GenIcon = __webpack_require__(/*! ../lib */ "./node_modules/vyaguta-icons/lib/esm/index.js").GenIcon
 module.exports.FiActivity = function (props) {
   return GenIcon({"tag":"svg","attr":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round"},"child":[{"tag":"polyline","attr":{"points":"22 12 18 12 15 21 9 3 6 12 2 12"}}]})(props);
 };

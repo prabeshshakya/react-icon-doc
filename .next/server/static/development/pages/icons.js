@@ -101,7 +101,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -126,8 +126,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prism_react_renderer_themes_nightOwl__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prism_react_renderer_themes_nightOwl__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-icons/fi */ "react-icons/fi");
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var vyaguta_icons_fi__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vyaguta-icons/fi */ "vyaguta-icons/fi");
+/* harmony import */ var vyaguta_icons_fi__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(vyaguta_icons_fi__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "/Users/Prabesh/Desktop/bk/preview/src/components/@core/code-block/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
 
@@ -183,7 +183,7 @@ function CodeBlock({
       lineNumber: 25,
       columnNumber: 11
     }
-  }, __jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__["FiClipboard"], {
+  }, __jsx(vyaguta_icons_fi__WEBPACK_IMPORTED_MODULE_5__["FiClipboard"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -341,7 +341,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 function IconSetImport({
   iconId
 }) {
-  const importCode = `import { IconName } from "react-icons/${iconId}";`;
+  const importCode = `import { IconName } from "vyaguta-icons/${iconId}";`;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("h2", {
     __self: this,
     __source: {
@@ -724,10 +724,10 @@ __webpack_require__.r(__webpack_exports__);
 const fn = function (id) {
   switch (id) {
     case "fi":
-      return Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! react-icons/fi/index */ "react-icons/fi/index", 7));
+      return Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! vyaguta-icons/fi/index */ "vyaguta-icons/fi/index", 7));
 
     case "ui":
-      return Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! react-icons/ui/index */ "react-icons/ui/index", 7));
+      return Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! vyaguta-icons/ui/index */ "vyaguta-icons/ui/index", 7));
   }
 };
 
@@ -737,7 +737,7 @@ function getIcons(iconsId) {
   Macros are used to avoid bundling unnecessary modules.
    Similar to this code
   ```
-  return import(`react-icons/${iconsId}/index`);
+  return import(`vyaguta-icons/${iconsId}/index`);
   ```
   */
   return fn(iconsId);
@@ -756,17 +756,17 @@ function getIcons(iconsId) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ALL_ICONS", function() { return ALL_ICONS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getIconById", function() { return getIconById; });
-/* harmony import */ var react_icons_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-icons/lib */ "react-icons/lib");
-/* harmony import */ var react_icons_lib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_icons_lib__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vyaguta_icons_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vyaguta-icons/lib */ "vyaguta-icons/lib");
+/* harmony import */ var vyaguta_icons_lib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vyaguta_icons_lib__WEBPACK_IMPORTED_MODULE_0__);
 
-const ALL_ICONS = react_icons_lib__WEBPACK_IMPORTED_MODULE_0__["IconsManifest"];
+const ALL_ICONS = vyaguta_icons_lib__WEBPACK_IMPORTED_MODULE_0__["IconsManifest"];
 const getIconById = id => {
   return ALL_ICONS.find(i => i.id === id);
 };
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!***********************************!*\
   !*** multi ./src/pages/icons.tsx ***!
   \***********************************/
@@ -855,50 +855,6 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-icons/fi":
-/*!*********************************!*\
-  !*** external "react-icons/fi" ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-icons/fi");
-
-/***/ }),
-
-/***/ "react-icons/fi/index":
-/*!***************************************!*\
-  !*** external "react-icons/fi/index" ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-icons/fi/index");
-
-/***/ }),
-
-/***/ "react-icons/lib":
-/*!**********************************!*\
-  !*** external "react-icons/lib" ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-icons/lib");
-
-/***/ }),
-
-/***/ "react-icons/ui/index":
-/*!***************************************!*\
-  !*** external "react-icons/ui/index" ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-icons/ui/index");
-
-/***/ }),
-
 /***/ "tiny-skeleton-loader-react":
 /*!*********************************************!*\
   !*** external "tiny-skeleton-loader-react" ***!
@@ -907,6 +863,50 @@ module.exports = require("react-icons/ui/index");
 /***/ (function(module, exports) {
 
 module.exports = require("tiny-skeleton-loader-react");
+
+/***/ }),
+
+/***/ "vyaguta-icons/fi":
+/*!***********************************!*\
+  !*** external "vyaguta-icons/fi" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("vyaguta-icons/fi");
+
+/***/ }),
+
+/***/ "vyaguta-icons/fi/index":
+/*!*****************************************!*\
+  !*** external "vyaguta-icons/fi/index" ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("vyaguta-icons/fi/index");
+
+/***/ }),
+
+/***/ "vyaguta-icons/lib":
+/*!************************************!*\
+  !*** external "vyaguta-icons/lib" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("vyaguta-icons/lib");
+
+/***/ }),
+
+/***/ "vyaguta-icons/ui/index":
+/*!*****************************************!*\
+  !*** external "vyaguta-icons/ui/index" ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("vyaguta-icons/ui/index");
 
 /***/ })
 

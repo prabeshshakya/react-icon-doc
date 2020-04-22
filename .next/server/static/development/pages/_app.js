@@ -2758,12 +2758,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BRAND_DESCRIPTION", function() { return BRAND_DESCRIPTION; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BRAND_KEYWORDS", function() { return BRAND_KEYWORDS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HOME_USAGE", function() { return HOME_USAGE; });
-const BRAND_TITLE = "React Icons";
-const BRAND_TITLE_MONO = "react-icons";
-const BRAND_DESCRIPTION = "Include popular icons in your React projects easly with react-icons.";
+const BRAND_TITLE = "Vyaguta Icons";
+const BRAND_TITLE_MONO = "vyaguta-icons";
+const BRAND_DESCRIPTION = "Include popular icons in your React projects easly with vyaguta-icons.";
 const BRAND_KEYWORDS = "React, Icons, Tree Shaking, SVG";
 const HOME_USAGE = `
-import { UiAirplay } from 'react-icons/ui';
+import { UiAirplay } from 'vyaguta-icons/ui';
 
 class Question extends React.Component {
   render() {
@@ -2784,10 +2784,10 @@ class Question extends React.Component {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ALL_ICONS", function() { return ALL_ICONS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getIconById", function() { return getIconById; });
-/* harmony import */ var react_icons_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-icons/lib */ "react-icons/lib");
-/* harmony import */ var react_icons_lib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_icons_lib__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vyaguta_icons_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vyaguta-icons/lib */ "vyaguta-icons/lib");
+/* harmony import */ var vyaguta_icons_lib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vyaguta_icons_lib__WEBPACK_IMPORTED_MODULE_0__);
 
-const ALL_ICONS = react_icons_lib__WEBPACK_IMPORTED_MODULE_0__["IconsManifest"];
+const ALL_ICONS = vyaguta_icons_lib__WEBPACK_IMPORTED_MODULE_0__["IconsManifest"];
 const getIconById = id => {
   return ALL_ICONS.find(i => i.id === id);
 };
@@ -2906,17 +2906,6 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-icons/lib":
-/*!**********************************!*\
-  !*** external "react-icons/lib" ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-icons/lib");
-
-/***/ }),
-
 /***/ "url":
 /*!**********************!*\
   !*** external "url" ***!
@@ -2925,6 +2914,17 @@ module.exports = require("react-icons/lib");
 /***/ (function(module, exports) {
 
 module.exports = require("url");
+
+/***/ }),
+
+/***/ "vyaguta-icons/lib":
+/*!************************************!*\
+  !*** external "vyaguta-icons/lib" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("vyaguta-icons/lib");
 
 /***/ })
 

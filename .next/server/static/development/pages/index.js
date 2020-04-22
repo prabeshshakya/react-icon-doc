@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -113,8 +113,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prism_react_renderer_themes_nightOwl__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prism_react_renderer_themes_nightOwl__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-icons/fi */ "react-icons/fi");
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var vyaguta_icons_fi__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vyaguta-icons/fi */ "vyaguta-icons/fi");
+/* harmony import */ var vyaguta_icons_fi__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(vyaguta_icons_fi__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "/Users/Prabesh/Desktop/bk/preview/src/components/@core/code-block/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
 
@@ -170,7 +170,7 @@ function CodeBlock({
       lineNumber: 25,
       columnNumber: 11
     }
-  }, __jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__["FiClipboard"], {
+  }, __jsx(vyaguta_icons_fi__WEBPACK_IMPORTED_MODULE_5__["FiClipboard"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -266,7 +266,7 @@ function Badges() {
       columnNumber: 5
     }
   }, __jsx("a", {
-    href: "https://www.npmjs.com/package/react-icons",
+    href: "https://www.npmjs.com/package/vyaguta-icons",
     rel: "nofollow",
     __self: this,
     __source: {
@@ -275,7 +275,7 @@ function Badges() {
       columnNumber: 7
     }
   }, __jsx("img", {
-    src: "https://img.shields.io/npm/v/react-icons.svg",
+    src: "https://img.shields.io/npm/v/vyaguta-icons.svg",
     alt: "npm",
     __self: this,
     __source: {
@@ -284,7 +284,7 @@ function Badges() {
       columnNumber: 9
     }
   })), "\u2003", __jsx("a", {
-    href: "https://travis-ci.com/react-icons/react-icons",
+    href: "https://travis-ci.com/vyaguta-icons/vyaguta-icons",
     rel: "nofollow",
     __self: this,
     __source: {
@@ -293,7 +293,7 @@ function Badges() {
       columnNumber: 7
     }
   }, __jsx("img", {
-    src: "https://travis-ci.com/react-icons/react-icons.svg?branch=master",
+    src: "https://travis-ci.com/vyaguta-icons/vyaguta-icons.svg?branch=master",
     alt: "travis ci",
     __self: this,
     __source: {
@@ -354,7 +354,7 @@ function HomePage() {
       lineNumber: 11,
       columnNumber: 7
     }
-  }, "Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using."), __jsx("h2", {
+  }, "Include popular icons in your React projects easily with vyaguta-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using."), __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -362,7 +362,7 @@ function HomePage() {
       columnNumber: 7
     }
   }, "Installation"), __jsx(_components_core_code_block__WEBPACK_IMPORTED_MODULE_0__["default"], {
-    code: `npm install react-icons --save`,
+    code: `npm install vyaguta-icons --save`,
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -399,7 +399,7 @@ function HomePage() {
       columnNumber: 7
     }
   }, __jsx("a", {
-    href: "https://github.com/prabeshshakya/react-icons",
+    href: "https://github.com/prabeshshakya/vyaguta-icons",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -425,12 +425,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BRAND_DESCRIPTION", function() { return BRAND_DESCRIPTION; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BRAND_KEYWORDS", function() { return BRAND_KEYWORDS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HOME_USAGE", function() { return HOME_USAGE; });
-const BRAND_TITLE = "React Icons";
-const BRAND_TITLE_MONO = "react-icons";
-const BRAND_DESCRIPTION = "Include popular icons in your React projects easly with react-icons.";
+const BRAND_TITLE = "Vyaguta Icons";
+const BRAND_TITLE_MONO = "vyaguta-icons";
+const BRAND_DESCRIPTION = "Include popular icons in your React projects easly with vyaguta-icons.";
 const BRAND_KEYWORDS = "React, Icons, Tree Shaking, SVG";
 const HOME_USAGE = `
-import { UiAirplay } from 'react-icons/ui';
+import { UiAirplay } from 'vyaguta-icons/ui';
 
 class Question extends React.Component {
   render() {
@@ -440,7 +440,7 @@ class Question extends React.Component {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!***********************************!*\
   !*** multi ./src/pages/index.tsx ***!
   \***********************************/
@@ -507,14 +507,14 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-icons/fi":
-/*!*********************************!*\
-  !*** external "react-icons/fi" ***!
-  \*********************************/
+/***/ "vyaguta-icons/fi":
+/*!***********************************!*\
+  !*** external "vyaguta-icons/fi" ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("react-icons/fi");
+module.exports = require("vyaguta-icons/fi");
 
 /***/ })
 

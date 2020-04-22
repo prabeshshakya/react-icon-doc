@@ -3,7 +3,7 @@ import copy from "copy-to-clipboard";
 import Highlight, { defaultProps } from "prism-react-renderer";
 import PrismTheme from "prism-react-renderer/themes/nightOwl";
 import React from "react";
-import { FiClipboard } from "react-icons/fi";
+import { FiClipboard } from "vyaguta-icons/fi";
 
 export default function CodeBlock({ code }) {
   const copyToClipboard = () => {

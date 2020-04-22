@@ -4626,173 +4626,6 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ }),
 
-/***/ "./node_modules/react-icons/lib/esm/iconBase.js":
-/*!******************************************************!*\
-  !*** ./node_modules/react-icons/lib/esm/iconBase.js ***!
-  \******************************************************/
-/*! exports provided: GenIcon, IconBase */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GenIcon", function() { return GenIcon; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBase", function() { return IconBase; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _iconContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iconContext */ "./node_modules/react-icons/lib/esm/iconContext.js");
-var __assign = undefined && undefined.__assign || function () {
-  __assign = Object.assign || function (t) {
-    for (var s, i = 1, n = arguments.length; i < n; i++) {
-      s = arguments[i];
-
-      for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-    }
-
-    return t;
-  };
-
-  return __assign.apply(this, arguments);
-};
-
-var __rest = undefined && undefined.__rest || function (s, e) {
-  var t = {};
-
-  for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
-
-  if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0) t[p[i]] = s[p[i]];
-  return t;
-};
-
-
-
-
-function Tree2Element(tree) {
-  return tree && tree.map(function (node, i) {
-    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](node.tag, __assign({
-      key: i
-    }, node.attr), Tree2Element(node.child));
-  });
-}
-
-function GenIcon(data) {
-  return function (props) {
-    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](IconBase, __assign({
-      attr: __assign({}, data.attr)
-    }, props), Tree2Element(data.child));
-  };
-}
-function IconBase(props) {
-  var elem = function (conf) {
-    var computedSize = props.size || conf.size || "1em";
-    var className;
-    if (conf.className) className = conf.className;
-    if (props.className) className = (className ? className + ' ' : '') + props.className;
-
-    var attr = props.attr,
-        title = props.title,
-        svgProps = __rest(props, ["attr", "title"]);
-
-    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", __assign({
-      stroke: "currentColor",
-      fill: "currentColor",
-      strokeWidth: "0"
-    }, conf.attr, attr, svgProps, {
-      className: className,
-      style: __assign({
-        color: props.color || conf.color
-      }, conf.style, props.style),
-      height: computedSize,
-      width: computedSize,
-      xmlns: "http://www.w3.org/2000/svg"
-    }), title && react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", null, title), props.children);
-  };
-
-  return _iconContext__WEBPACK_IMPORTED_MODULE_1__["IconContext"] !== undefined ? react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_iconContext__WEBPACK_IMPORTED_MODULE_1__["IconContext"].Consumer, null, function (conf) {
-    return elem(conf);
-  }) : elem(_iconContext__WEBPACK_IMPORTED_MODULE_1__["DefaultContext"]);
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-icons/lib/esm/iconContext.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/react-icons/lib/esm/iconContext.js ***!
-  \*********************************************************/
-/*! exports provided: DefaultContext, IconContext */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DefaultContext", function() { return DefaultContext; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconContext", function() { return IconContext; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-var DefaultContext = {
-  color: undefined,
-  size: undefined,
-  className: undefined,
-  style: undefined,
-  attr: undefined
-};
-var IconContext = react__WEBPACK_IMPORTED_MODULE_0__["createContext"] && react__WEBPACK_IMPORTED_MODULE_0__["createContext"](DefaultContext);
-
-/***/ }),
-
-/***/ "./node_modules/react-icons/lib/esm/iconsManifest.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-icons/lib/esm/iconsManifest.js ***!
-  \***********************************************************/
-/*! exports provided: IconsManifest */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconsManifest", function() { return IconsManifest; });
-var IconsManifest = [{
-  "id": "fi",
-  "name": "Feather",
-  "projectUrl": "https://feathericons.com/",
-  "license": "MIT",
-  "licenseUrl": "https://github.com/feathericons/feather/blob/master/LICENSE"
-}, {
-  "id": "ui",
-  "name": "Unicons",
-  "projectUrl": "https://iconscout.com/unicons",
-  "license": "Apache-2.0",
-  "licenseUrl": "https://github.com/Iconscout/unicons/blob/master/LICENSE"
-}];
-
-/***/ }),
-
-/***/ "./node_modules/react-icons/lib/esm/index.js":
-/*!***************************************************!*\
-  !*** ./node_modules/react-icons/lib/esm/index.js ***!
-  \***************************************************/
-/*! exports provided: IconsManifest, GenIcon, IconBase, DefaultContext, IconContext */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _iconsManifest__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./iconsManifest */ "./node_modules/react-icons/lib/esm/iconsManifest.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsManifest", function() { return _iconsManifest__WEBPACK_IMPORTED_MODULE_0__["IconsManifest"]; });
-
-/* harmony import */ var _iconBase__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iconBase */ "./node_modules/react-icons/lib/esm/iconBase.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GenIcon", function() { return _iconBase__WEBPACK_IMPORTED_MODULE_1__["GenIcon"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconBase", function() { return _iconBase__WEBPACK_IMPORTED_MODULE_1__["IconBase"]; });
-
-/* harmony import */ var _iconContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./iconContext */ "./node_modules/react-icons/lib/esm/iconContext.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DefaultContext", function() { return _iconContext__WEBPACK_IMPORTED_MODULE_2__["DefaultContext"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconContext", function() { return _iconContext__WEBPACK_IMPORTED_MODULE_2__["IconContext"]; });
-
-
-
-
-
-/***/ }),
-
 /***/ "./node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
@@ -5754,6 +5587,173 @@ try {
 
 /***/ }),
 
+/***/ "./node_modules/vyaguta-icons/lib/esm/iconBase.js":
+/*!********************************************************!*\
+  !*** ./node_modules/vyaguta-icons/lib/esm/iconBase.js ***!
+  \********************************************************/
+/*! exports provided: GenIcon, IconBase */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GenIcon", function() { return GenIcon; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBase", function() { return IconBase; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _iconContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iconContext */ "./node_modules/vyaguta-icons/lib/esm/iconContext.js");
+var __assign = undefined && undefined.__assign || function () {
+  __assign = Object.assign || function (t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+      s = arguments[i];
+
+      for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+    }
+
+    return t;
+  };
+
+  return __assign.apply(this, arguments);
+};
+
+var __rest = undefined && undefined.__rest || function (s, e) {
+  var t = {};
+
+  for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
+
+  if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0) t[p[i]] = s[p[i]];
+  return t;
+};
+
+
+
+
+function Tree2Element(tree) {
+  return tree && tree.map(function (node, i) {
+    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](node.tag, __assign({
+      key: i
+    }, node.attr), Tree2Element(node.child));
+  });
+}
+
+function GenIcon(data) {
+  return function (props) {
+    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](IconBase, __assign({
+      attr: __assign({}, data.attr)
+    }, props), Tree2Element(data.child));
+  };
+}
+function IconBase(props) {
+  var elem = function (conf) {
+    var computedSize = props.size || conf.size || "1em";
+    var className;
+    if (conf.className) className = conf.className;
+    if (props.className) className = (className ? className + ' ' : '') + props.className;
+
+    var attr = props.attr,
+        title = props.title,
+        svgProps = __rest(props, ["attr", "title"]);
+
+    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", __assign({
+      stroke: "currentColor",
+      fill: "currentColor",
+      strokeWidth: "0"
+    }, conf.attr, attr, svgProps, {
+      className: className,
+      style: __assign({
+        color: props.color || conf.color
+      }, conf.style, props.style),
+      height: computedSize,
+      width: computedSize,
+      xmlns: "http://www.w3.org/2000/svg"
+    }), title && react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", null, title), props.children);
+  };
+
+  return _iconContext__WEBPACK_IMPORTED_MODULE_1__["IconContext"] !== undefined ? react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_iconContext__WEBPACK_IMPORTED_MODULE_1__["IconContext"].Consumer, null, function (conf) {
+    return elem(conf);
+  }) : elem(_iconContext__WEBPACK_IMPORTED_MODULE_1__["DefaultContext"]);
+}
+
+/***/ }),
+
+/***/ "./node_modules/vyaguta-icons/lib/esm/iconContext.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/vyaguta-icons/lib/esm/iconContext.js ***!
+  \***********************************************************/
+/*! exports provided: DefaultContext, IconContext */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DefaultContext", function() { return DefaultContext; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconContext", function() { return IconContext; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var DefaultContext = {
+  color: undefined,
+  size: undefined,
+  className: undefined,
+  style: undefined,
+  attr: undefined
+};
+var IconContext = react__WEBPACK_IMPORTED_MODULE_0__["createContext"] && react__WEBPACK_IMPORTED_MODULE_0__["createContext"](DefaultContext);
+
+/***/ }),
+
+/***/ "./node_modules/vyaguta-icons/lib/esm/iconsManifest.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/vyaguta-icons/lib/esm/iconsManifest.js ***!
+  \*************************************************************/
+/*! exports provided: IconsManifest */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconsManifest", function() { return IconsManifest; });
+var IconsManifest = [{
+  "id": "fi",
+  "name": "Feather",
+  "projectUrl": "https://feathericons.com/",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/feathericons/feather/blob/master/LICENSE"
+}, {
+  "id": "ui",
+  "name": "Unicons",
+  "projectUrl": "https://iconscout.com/unicons",
+  "license": "Apache-2.0",
+  "licenseUrl": "https://github.com/Iconscout/unicons/blob/master/LICENSE"
+}];
+
+/***/ }),
+
+/***/ "./node_modules/vyaguta-icons/lib/esm/index.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/vyaguta-icons/lib/esm/index.js ***!
+  \*****************************************************/
+/*! exports provided: IconsManifest, GenIcon, IconBase, DefaultContext, IconContext */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _iconsManifest__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./iconsManifest */ "./node_modules/vyaguta-icons/lib/esm/iconsManifest.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsManifest", function() { return _iconsManifest__WEBPACK_IMPORTED_MODULE_0__["IconsManifest"]; });
+
+/* harmony import */ var _iconBase__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iconBase */ "./node_modules/vyaguta-icons/lib/esm/iconBase.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GenIcon", function() { return _iconBase__WEBPACK_IMPORTED_MODULE_1__["GenIcon"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconBase", function() { return _iconBase__WEBPACK_IMPORTED_MODULE_1__["IconBase"]; });
+
+/* harmony import */ var _iconContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./iconContext */ "./node_modules/vyaguta-icons/lib/esm/iconContext.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DefaultContext", function() { return _iconContext__WEBPACK_IMPORTED_MODULE_2__["DefaultContext"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconContext", function() { return _iconContext__WEBPACK_IMPORTED_MODULE_2__["IconContext"]; });
+
+
+
+
+
+/***/ }),
+
 /***/ "./src/components/@core/active-link/index.tsx":
 /*!****************************************************!*\
   !*** ./src/components/@core/active-link/index.tsx ***!
@@ -6343,11 +6343,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BRAND_DESCRIPTION", function() { return BRAND_DESCRIPTION; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BRAND_KEYWORDS", function() { return BRAND_KEYWORDS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HOME_USAGE", function() { return HOME_USAGE; });
-var BRAND_TITLE = "React Icons";
-var BRAND_TITLE_MONO = "react-icons";
-var BRAND_DESCRIPTION = "Include popular icons in your React projects easly with react-icons.";
+var BRAND_TITLE = "Vyaguta Icons";
+var BRAND_TITLE_MONO = "vyaguta-icons";
+var BRAND_DESCRIPTION = "Include popular icons in your React projects easly with vyaguta-icons.";
 var BRAND_KEYWORDS = "React, Icons, Tree Shaking, SVG";
-var HOME_USAGE = "\nimport { UiAirplay } from 'react-icons/ui';\n\nclass Question extends React.Component {\n  render() {\n    return <h3> Lets go for a <UiAirplay />? </h3>\n  }\n}";
+var HOME_USAGE = "\nimport { UiAirplay } from 'vyaguta-icons/ui';\n\nclass Question extends React.Component {\n  render() {\n    return <h3> Lets go for a <UiAirplay />? </h3>\n  }\n}";
 
 /***/ }),
 
@@ -6362,9 +6362,9 @@ var HOME_USAGE = "\nimport { UiAirplay } from 'react-icons/ui';\n\nclass Questio
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ALL_ICONS", function() { return ALL_ICONS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getIconById", function() { return getIconById; });
-/* harmony import */ var react_icons_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-icons/lib */ "./node_modules/react-icons/lib/esm/index.js");
+/* harmony import */ var vyaguta_icons_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vyaguta-icons/lib */ "./node_modules/vyaguta-icons/lib/esm/index.js");
 
-var ALL_ICONS = react_icons_lib__WEBPACK_IMPORTED_MODULE_0__["IconsManifest"];
+var ALL_ICONS = vyaguta_icons_lib__WEBPACK_IMPORTED_MODULE_0__["IconsManifest"];
 var getIconById = function getIconById(id) {
   return ALL_ICONS.find(function (i) {
     return i.id === id;
