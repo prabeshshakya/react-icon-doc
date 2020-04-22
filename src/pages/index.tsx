@@ -1,13 +1,11 @@
 import CodeBlock from "@components/@core/code-block";
 import Container from "@components/@core/container";
-import Badges from "@components/pages/home/badges";
 import { BRAND_TITLE, HOME_USAGE } from "@utils/constants";
 import React from "react";
 
 export default function HomePage() {
   return (
     <Container title={BRAND_TITLE}>
-      <Badges />
       <p>
         Include popular icons in your React projects easily with vyaguta-icons,
         which utilizes ES6 imports that allows you to include only the icons
